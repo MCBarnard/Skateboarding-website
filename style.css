@@ -32,7 +32,80 @@ h5.modal-title{
     margin:auto;
 }
 
-.myFooter{
+.vid-modal-text{
+    display: block;
+    text-align: center;
+}
+
+.imgRows{
     background-color: #eceeef;
-    height: 200px;
+}
+img.img-center{
+    display: block;
+    margin: auto;
+}
+.btn-center{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 69%;
+    background-color: darkred;
+    color: #ffffff;
+}
+
+.footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.fab{
+    margin: 10px;
+}
+.fa-facebook {
+    color:#3b5998;
+    
+}
+.fa-instagram{
+    color:#ffffff;
+}
+.fa-google-plus-square{
+    color:#c32f10;
+}
+
+.socialWrapper{
+    margin: auto;
+}
+
+/*Bounce animations*/
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateY(0);
+		-ms-transform:     translateY(0);
+		transform:         translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-30px);
+		-ms-transform:     translateY(-30px);
+		transform:         translateY(-30px)
+	}
+	60% {
+		-webkit-transform: translateY(-15px);
+		-ms-transform:     translateY(-15px);
+		transform:         translateY(-15px)
+	}
+}
+.span {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+}
+.span:hover {
+  cursor: pointer;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
 }

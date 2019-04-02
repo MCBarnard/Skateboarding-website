@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="bootstrap-4.0.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 
 
@@ -139,15 +140,64 @@
     
         <!--################################## End of 2 ########################################-->
         
-        <!--################################## Footer ########################################-->
-    <div class="row">
-        <div class="col-sm-12 sk myFooter">
-        
+        <!--################################## Image rows ########################################-->
+        <div class="sectionLight">
+            <div class="row">
+                <div class="col-sm-12 sk imgRows">
+                    <div class="row">
+                        <div class="col-sm-12 col-lg-4">
+                            <img src="assets/kickflip.jpg" class="img-fluid img-center">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button type="button" class="btn btn-lg btn-center" data-toggle="modal" data-target=".kickflip-modal-lg">Kickflip</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12 col-lg-4">
+                            <img src="assets/360flip.jpg" class="img-fluid img-center">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button type="button" class="btn btn-lg btn-center" data-toggle="modal" data-target=".360flip-modal-md">360 Flip</button>
+                                </div>
+                            </div>
+                        </div><div class="col-sm-12 col-lg-4">
+                            <img src="assets/bscrook.jpg" class="img-fluid img-center">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <button type="button" class="btn btn-lg btn-center" data-toggle="modal" data-target=".bscrook-modal-sm">BS Crook</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    
-    </div>
-                <!--################################## End Footer ########################################-->
-        <!--#################### Modal ######################-->
+                <!--################################## End Image rows ########################################-->
+        
+        
+        <!--#################### Footer ######################-->
+        <footer class="footer bg-dark">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-3">
+                        <img class="img-fluid" src="assets/KFS_LIGHT.png">
+                    </div>
+                    <div class="col-sm-12 col-lg-9 socialWrapper">
+                    <a href="https://www.Facebook.com" target="_blank">
+                    <i class="fab fa-facebook fa-3x span"></i></a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram fa-3x span"></i></a>
+                    <a href="https://www.googleplus.com" target="_blank">
+                        <i class="fab fa-google-plus-square fa-3x span"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!--############### End of Footer #####################-->
+        
+        <!--#################### Modals ######################-->
+        <!--############## get cool stuff ####################-->
         <div class="modal fade" id="coolStuffModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -195,7 +245,56 @@
     </div>
   </div>
 </div>
-</div>
+
+        <!--############## End of get cool stuff ####################-->
+        
+        
+        <!--############## Kickflip video ####################-->
+            <div class="modal fade kickflip-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="kickflip-modal-container">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+                            </div>
+                      <p class="vid-modal-text">This text should relate to the video right? Woops..</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--############## End of Kickflip video ####################-->
+        
+        
+        <!--############## 360 Flip video ####################-->
+        <div class="modal fade 360flip-modal-md" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-md">
+                <div class="modal-content">
+                  <div class="360flip-modal-container">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+                            </div>
+                      <p class="vid-modal-text">Don't click the next video, it is just the same one ( ;</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--############## End of 360 Flip video ####################-->
+        
+        
+        <!--############## BS Crook video ####################-->
+        <div class="modal fade bscrook-modal-sm" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="bscrook-modal-container">
+                            <div class="embed-responsive embed-responsive-16by9">
+                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ilzy0viqVes" allowfullscreen></iframe>
+                            </div>
+                      <p class="vid-modal-text">I told you not to click it???? T_T</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <!--############## End of BS Crook video ####################-->
 
 
         <!--#################### End of Modal ######################-->
